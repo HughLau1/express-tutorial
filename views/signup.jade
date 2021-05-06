@@ -1,0 +1,27 @@
+//- html
+//-    head
+//-       title Signup
+//-    body
+//-       if(message)
+//-          h4 #{message}
+//-          form(action = "/signup" method = "POST")
+//-          input(name = "id" type = "text" required placeholder = "User ID")
+//-          input(name = "password" type = "password" required placeholder = "Password")
+//-          button(type = "Submit") Sign me up!
+
+
+html
+html
+   head
+      title Form Tester
+   body
+      form(action = "/signup", method = "POST")
+         div
+            label(for = "say") Say:
+            input(name = "id" )
+         br
+         div
+            label(for = "to") To:
+            input(name = "passwrd" )
+         br
+         button(type = "submit") Send my greetings
